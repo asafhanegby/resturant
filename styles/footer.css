@@ -1,92 +1,90 @@
 .footer{
-    height:370px;
+    height:400px;
     background-color:#11122b;
     color:#cbcbcb;
     display:flex;
     justify-content: center;
-    align-items;center;
+    align-items:center;
     font-family: 'Ubuntu Condensed', sans-serif;
+    flex-direction:column;
+    margin-top:-4px;
 }
 
-.footer > .footer-wrapper{
-    width:450px;
-}
 
 
-.footer > .footer-wrapper >.logo{
+.footer > .logo-footer{
     text-align:center;
-    margin-top:-10px;
-    
-}
-.footer > .footer-wrapper >.logo img{
- width:150px;
- opacity:0.5;
 }
 
-.footer > .footer-wrapper> .contact {
-    display:flex;
-    justify-content: center;
+.footer > .logo-footer img{
+ width:180px;
+ height:100%;
+ filter:brightness(50%);
+ /* opacity:0.5; */
+}
+
+.footer >.footer-phone-hours {
     text-align:center;
     margin-bottom:30px;
     margin-top:5px;
 }
-
-.footer > .footer-wrapper> .contact >.phone{
-    margin-right:20px;
+.footer >.footer-phone-hours > span{
     letter-spacing:2px;
-    color:#cbcbcb;
     font-size:1em;
+    margin-right:10px;
+    margin-left:10px;
 }
-
-.footer > .footer-wrapper> .contact >.hours{
-    margin-left:20px;
+.footer >  .footer-phone-hours >.phone{
+    color:#cbcbcb;    
+}
+.footer >  .footer-phone-hours >.hours{
     color:#cea135;
-    letter-spacing:2px;
-    font-size:0.9em;
+    font-size:0.8em;
+    text-transform: uppercase;
 }
 
-.footer >.footer-wrapper >.nav-bar{
+.footer >.links-wrapper{
     display:flex;
     justify-content: space-between;
     margin-bottom: 70px;
-    
+    width:400px;
 }
-.footer >.footer-wrapper >.nav-bar >.nav-link{
+
+.footer >.links-wrapper >.nav-link{
     width:100px;
     text-align:center;
 }
-.footer >.footer-wrapper >.nav-bar >.nav-link a{
+.footer >.links-wrapper >.nav-link a{
     text-decoration:none;
-    
     color:#cbcbcb;
     transition:0.5s;
     
 }
-.footer >.footer-wrapper >.nav-bar >.nav-link a:hover{
+.footer >.links-wrapper >.nav-link a:hover{
     letter-spacing: 2px;
     color:#cea135;
 }
 
-.footer >.footer-wrapper > .social-media{
+.footer >.social-media-icons-wrapper{
     display:flex;
     justify-content: center;
     padding-bottom:45px;
+    width:300px;
 }
 
-.footer >.footer-wrapper > .social-media a{
+.footer > .social-media-icons-wrapper a{
     margin: 0 40px;
     font-size:25px;
     text-decoration: none;
     color:#cbcbcb;
     transition:0.5s;
 }
-.footer >.footer-wrapper > .social-media a:hover{
+.footer > .social-media-icons-wrapper a:hover{
     color:#cea135;
 }
-.footer >.footer-wrapper >.all-rights-reserved{
+.footer >.copyright-wrapper{
     font-size:0.8em;
     color:#858585;
     text-align:center;
     padding-bottom:20px;
-
 }
