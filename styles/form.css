@@ -43,6 +43,9 @@
 .form input::-webkit-input-placeholder ,.form textarea::-webkit-input-placeholder{
    color:#11122b; 
 } 
+.form input:focus::-webkit-input-placeholder ,.form textarea:focus::-webkit-input-placeholder{
+    color:transparent;
+ } 
 
 .form label{
     font-size:1.2rem;
@@ -53,10 +56,10 @@
     transition: all 0.3s;
     color:#cea135;
     visibility:hidden;
-    opacity:0;
+     opacity:0;
 }
 
-.form input:focus + label{
+.form input:focus + label,.form textarea:focus + label {
     opacity:1;
     visibility:visible;
     transform:translateY(1rem);
