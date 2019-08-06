@@ -1,0 +1,25 @@
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+    outline:
+}
+
+.anchor-link:focus {
+    outline: none;
+}
+
+/* .anchor-link h1::before {
+    content: "I'm before-"
+} */
+
+/* Not working!! */
+/* .anchor-link h1::after {
+    font-family: 'Font Awesome 5 pro';
+    font-weight: 900;
+    content: " \f0c1";
+} */
+/* I added it manuelly */
